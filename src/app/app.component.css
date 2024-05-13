@@ -1,0 +1,26 @@
+p {
+  font-family: Lato;
+}
+
+.todo {
+  background-color: aquamarine;
+  border: solid 2px red;
+  padding: 5px;
+  margin: 2px;
+}
+
+.cell {
+  width: 100px;
+  padding: 2px 5px 2px 15px;
+  border-bottom: 2px solid gray;
+  border-right: 1px solid gray;
+  overflow: scroll;
+}
+
+.center {
+  justify-content: center;
+  display: flex;
+}
+.flex {
+  display: flex;
+}

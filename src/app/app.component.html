@@ -1,0 +1,14 @@
+<table>
+  <tr class="flex">
+    <td class="cell center" *ngFor="let header of headers">{{ header }}</td>
+  </tr>
+  <tr>
+    <td class="flex" *ngFor="let todo of todos">
+      <div class="cell">{{ todo.id }}</div>
+      <div class="cell">{{ todo.user_id }}</div>
+      <div class="cell">{{ todo.title }}</div>
+      <div class="cell">{{ todo.due_on }}</div>
+      <div class="cell">{{ todo.status }}</div>
+    </td>
+  </tr>
+</table>
